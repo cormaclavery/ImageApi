@@ -104,7 +104,7 @@ As this is just a sample project the default username and password is user:passw
 |id|<String (UUID)>|
 |extId|<String someExternalId>|
 
-### Response: undefined
+### Response: 200
 ```json
 {
     "deleted": true
