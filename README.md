@@ -17,6 +17,7 @@ following:
 To deploy this project in docker please run the following commands from project root
 
 ```bash
+  ./gradlew build
   docker build -t image_api .
   docker run -p 8080:8080 image_api
 ```
