@@ -49,7 +49,7 @@ As this is just a sample project the default username and password is user:passw
 ```
 
 ### Example curl
-`curl -F file=@"/Users/cormaclavery/IdeaProjects/imageApi/src/test/resources/images/jpg-test.jpeg" -F metadata="{'key1':'value1', 'key2':'value2'}" -F externalId=someExternalId123  localhost:8080/api/v1/images --user 'user:password'`
+`curl -F file=@"/path/to/jpg-test.jpeg" -F metadata="{'key1':'value1', 'key2':'value2'}" -F externalId=someExternalId123  localhost:8080/api/v1/images --user 'user:password'`
 
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
